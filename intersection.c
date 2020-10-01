@@ -1,20 +1,20 @@
 #include<stdio.h>
 void main()
 {
-int a[5],b[5],c[5],i=0,j=0,same=0,f=0;
+int a[6],b[6],c[6],i=0,j=0,same=0,f=0;
 printf("Enter value of A \n");
-for(i=0;i<5;i++)
+for(i=0;i<6;i++)
     {
      scanf("%d", &a[i]);
     }
 printf("Enter B \n");
     printf("%d",f);
-for(i=0;i<5;i++)
+for(i=0;i<6;i++)
     {
      scanf("%d", &b[i]);
     }
 printf("Intersection is : ");
-for(i=0;i<5;i++)
+for(i=0;i<6;i++)
     {
      same=0;
      for(j=0;j<i;j++)
@@ -28,7 +28,7 @@ for(i=0;i<5;i++)
     if(same==0)
         
         {
-          for(j=0;j<5;j++)
+          for(j=0;j<6;j++)
             {
                  if(b[j]==a[i])
                 {
